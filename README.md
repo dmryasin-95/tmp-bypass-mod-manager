@@ -1,5 +1,7 @@
 <div align="center">
 
+![TruckersMP Mod Manager Bypass](assets/truckersmp-mod-banner.png)
+
 # TruckersMP Mod
 
 ### TruckersMP Mod Manager Bypass
