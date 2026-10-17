@@ -33,7 +33,7 @@ Download stable **v1.0.30** from [Releases](https://github.com/dmryasin-95/tmp-b
 ### What changed since v1.0.17
 
 - Added truck, bus and car choices for how unsupported mod vehicles appear to other players.
-- Fixed missing dealer brands and incorrect brand/vehicle associations in the tested Audi setup. Audi, HVT, TMP Staff, TMP and Scout appeared together with the correct vehicles.
+- Fixed missing dealer brands and incorrect brand/vehicle associations in the tested mod setup.
 - Fixed the crash when returning to the dealer after configuring a vehicle. Two consecutive configuration/return cycles passed the user's live test in v1.0.29; v1.0.30 keeps that fix.
 - Preparation reuses its cache across launches. Measured compiled runs prepared unchanged mod content in about 13–15 seconds. Adding or changing mods requires another scan and can take longer.
 - v1.0.30 adds an explanation above the vehicle choices: stock vehicles keep their own make and model.
@@ -50,7 +50,7 @@ Choose **Karşı tarafta görünen araç** before starting the watchers. This se
 | **Otobüs · TruckersMP** | The supported TruckersMP bus (`t16shd`) |
 | **Araba · Scout** | Scout / Škoda Superb (`skoda.superb`) |
 
-For example, choose **Araba · Scout** for an Audi mod to represent it as a Scout, or **Otobüs · TruckersMP** for a bus mod to represent it as the supported bus. This choice applies to unsupported mod vehicles throughout that session; it does not automatically switch based on the type of each mod. Start a new session to change it.
+For example, choose **Araba · Scout** for a car mod to represent it as a Scout, or **Otobüs · TruckersMP** for a bus mod to represent it as the supported bus. This choice applies to unsupported mod vehicles throughout that session; it does not automatically switch based on the type of each mod. Start a new session to change it.
 
 **Stock ETS2 vehicles keep their own make and model.** A stock Scania stays a Scania even with Volvo selected. Vehicles already recognized by TruckersMP also keep their supported identity. The choice does not grant access to restricted vehicles or parts; client and server rules still apply. Compatibility depends on the mod's definitions and dependencies.
 
@@ -102,7 +102,7 @@ Kararlı **v1.0.30** sürümünü [Releases](https://github.com/dmryasin-95/tmp-
 ### v1.0.17'den bu yana değişenler
 
 - Desteklenmeyen modlu araçların diğer oyunculara görünümü için tır, otobüs ve araba seçenekleri eklendi.
-- Test edilen Audi kurulumunda eksik bayi markaları ve yanlış marka/araç eşleşmeleri düzeltildi. Audi, HVT, TMP Staff, TMP ve Scout doğru araçlarla birlikte göründü.
+- Test edilen mod kurulumunda eksik bayi markaları ve yanlış marka/araç eşleşmeleri düzeltildi.
 - Aracı yapılandırıp bayiye geri dönünce oluşan kapanma düzeltildi. Kullanıcı v1.0.29'da iki yapılandırma/dönüş işlemini arka arkaya sorunsuz tamamladı; v1.0.30 bu düzeltmeyi korur.
 - Hazırlık önbelleği sonraki açılışlarda tekrar kullanılıyor. Ölçülen derlenmiş uygulama denemelerinde aynı mod içeriği yaklaşık 13–15 saniyede hazırlandı. Mod eklemek veya değiştirmek yeniden tarama gerektirir ve daha uzun sürebilir.
 - v1.0.30'da araç seçeneklerinin üstüne, oyunun kendi araçlarının kendi marka ve modeliyle göründüğünü açıklayan metin eklendi.
@@ -119,7 +119,7 @@ Uyumlu aksesuar veri tabanı (ADB) güncellemeleri otomatik algılanmaya devam e
 | **Otobüs · TruckersMP** | Desteklenen TruckersMP otobüsü (`t16shd`) |
 | **Araba · Scout** | Scout / Škoda Superb (`skoda.superb`) |
 
-Örneğin Audi modunun karşı tarafta Scout görünmesi için **Araba · Scout**, otobüs modunun desteklenen otobüs olarak görünmesi için **Otobüs · TruckersMP** seçebilirsin. Seçim, o oturumdaki desteklenmeyen modlu araçlara uygulanır; her modun türüne göre kendiliğinden değişmez. Seçimi değiştirmek için yeni oturum başlat.
+Örneğin bir araba modunun karşı tarafta Scout görünmesi için **Araba · Scout**, otobüs modunun desteklenen otobüs olarak görünmesi için **Otobüs · TruckersMP** seçebilirsin. Seçim, o oturumdaki desteklenmeyen modlu araçlara uygulanır; her modun türüne göre kendiliğinden değişmez. Seçimi değiştirmek için yeni oturum başlat.
 
 **Oyunun kendi vanilla araçları kendi marka ve modeliyle görünür.** Volvo seçili olsa da vanilla Scania, Scania olarak kalır. TruckersMP'nin zaten tanıdığı araçlar da desteklenen kimliklerini korur. Bu seçim, kısıtlı araç veya parçalara erişim yetkisi vermez; istemci ve sunucu kuralları uygulanmaya devam eder. Uyumluluk, modun tanımlarına ve bağımlılıklarına bağlıdır.
 
