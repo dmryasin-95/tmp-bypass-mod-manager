@@ -61,15 +61,15 @@ For example, choose **Araba · Scout** for a car mod to represent it as a Scout,
 | Operating system | 64-bit Windows |
 | Game | Installed ETS2; tested build: **1.61.1.9s** |
 | Multiplayer | Installed official TruckersMP launcher; local core version: **0.7.8.3** |
-| Permissions | Administrator permission when starting the watchers |
+| Permissions | Run `TMP Mod.exe` as administrator |
 | Extra installation | No additional runtime installation required |
 
 ### Install and start
 
 1. Close ETS2 and any older TMP Mod windows before preparing a new session.
 2. Place `TMP Mod.exe` in `%APPDATA%\TruckersMP`.
-3. Open the EXE and choose the vehicle appearance described above.
-4. Click **İzleyicileri başlat** (Start watchers) and approve the Windows administrator prompt.
+3. Right-click `TMP Mod.exe`, select **Run as administrator** and approve the Windows prompt. Then choose the vehicle appearance described above.
+4. Click **İzleyicileri başlat** (Start watchers).
 5. Wait for **OYNA için hazır** (Ready to play).
 6. Click **TruckersMP’yi aç**, then press **PLAY / OYNA** in the official TruckersMP launcher.
 7. Select your mods and vehicle in the game.
@@ -130,15 +130,15 @@ Uyumlu aksesuar veri tabanı (ADB) güncellemeleri otomatik algılanmaya devam e
 | İşletim sistemi | 64-bit Windows |
 | Oyun | Kurulu ETS2; test edilen sürüm: **1.61.1.9s** |
 | Çok oyunculu | Kurulu resmî TruckersMP başlatıcısı; yerel core sürümü: **0.7.8.3** |
-| Yetki | İzleyiciler başlatılırken yönetici izni |
+| Yetki | `TMP Mod.exe` yönetici olarak çalıştırılmalı |
 | Ek kurulum | Ek çalışma ortamı kurulumu gerekmez |
 
 ### Kurulum ve kullanım
 
 1. Yeni oturum hazırlamadan önce ETS2'yi ve eski TMP Mod pencerelerini kapat.
 2. `TMP Mod.exe` dosyasını `%APPDATA%\TruckersMP` klasörüne yerleştir.
-3. EXE'yi aç ve yukarıda açıklanan araç görünümünü seç.
-4. **İzleyicileri başlat** düğmesine bas ve Windows yönetici iznini onayla.
+3. `TMP Mod.exe` dosyasına sağ tıkla, **Yönetici olarak çalıştır** seçeneğini seç ve Windows izin penceresini onayla. Ardından yukarıda açıklanan araç görünümünü seç.
+4. **İzleyicileri başlat** düğmesine bas.
 5. **OYNA için hazır** durumunu bekle.
 6. **TruckersMP’yi aç** düğmesine bas, ardından resmî başlatıcıda **OYNA** seçeneğini kullan.
 7. Modlarını ve aracını oyundan seç.
